@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    
+}
+.mainContent{
+    align-items: center;
+    display: flex;
+    background-image: url(slike/pano.jpg);
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 4rem;
+    padding: 5rem;
+    transition: all 350ms;
+}
+.lijevo{
+    display: flex;
+    align-items:center;
+    width: 25%;
+    justify-content: space-between;
+}
+.desno{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+.desno1{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 5px;
+    margin-right: 15px;
+}
+.desno1:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.desno2{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 5px;
+}
+.desno2:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.hreff{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.href{
+    padding: 8px 8px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.href:hover{
+    border: 1px solid white;
+}
+.centar{
+    display: flex;
+    margin-top: 12rem;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    flex-direction: column;
+}
+.dugmad{
+    display: flex;
+}
+.btn1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    padding: 20px;
+    margin-right: 17px;
+    font-size: 20px;
+    border: 1px solid;
+    color: white;
+    background-color: transparent;
+    transition: 0.6s;
+}
+.btn1:hover{
+    background-color: white;
+    color: rgb(24, 15, 56);
+}
+.centar > h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    text-shadow: 3px 3px 3px #ababab;
+}
+@font-face{
+    font-family: CustomFont;
+    src: url(fonts/Sacramento-Regular.ttf);
+}
+.centar > h2{
+    text-shadow: 3px 3px 3px #6a1919 ;
+    font-style: italic;
+    font-size: 2.7rem;
+    font-family: CustomFont;
+    color: white;
+    margin-bottom: 30px;
+}
+.loginicon{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.secondContent{
+    display:center;
+    align-items: center;
+    background-image: url(slike/pozadinaa.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.thirdContent{
+    padding-left: 12rem !important;
+    padding-right: 12rem !important;
+    padding-top: 60px !important;
+    display:grid;
+    background-color: #3f5365;
+    height: 80%;
+    width: 100%;
+    background-size: 100%;
+}
+.red{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+    border-bottom: 2px solid #6a1919;
+    padding-bottom: 8rem;
+}
+.oNama{
+    width: 25%;
+    height: 42%;
+    color: #6f7274;
+    font-weight: 600;
+}
+.oNama h1{
+    margin: auto;
+    width: 9rem;
+    border-bottom:2px solid #6a1919;
+    text-shadow: 3px 3px 3px #6a1919;
+    font-family:CustomFont ;
+    margin-bottom: 25px;
+}
+.oNama p{
+    text-shadow: 2px 2px 2px #0a2d4c;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+.kontakt{
+    font-weight: 600;
+    color: #6f7274;
+}
+.kontakt h1{
+    border-bottom:2px solid #6a1919;
+    font-family: CustomFont;
+    text-shadow: 3px 3px 3px #6a1919;
+    margin-bottom: 10%;
+}
+.kontakt p{
+    color: #6f7274;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 2px #0a2d4c;
+}
+.poslovnica{
+    display: flex;
+    align-items: center;
+}
+.poslovnica:hover{
+    cursor: pointer;
+}
+.lokacija{
+    height: 20px;
+    width: 20px;
+}
+.partneri{
+    font-weight: 600;
+    color: #6f7274;
+}
+.partneri h1{
+    margin: auto;   
+    width: 47%;
+    border-bottom:2px solid #6a1919;
+    font-family: CustomFont;
+    text-shadow: 3px 3px 3px #6a1919;
+    margin-bottom: 25px;
+}
+.slike{
+    justify-items: center;
+    display: grid;
+}
+.securitas{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.kraj{
+    margin-bottom: 20%;
+    justify-content: center;
+    display: flex;
+}
+
+
